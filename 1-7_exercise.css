@@ -9,6 +9,8 @@
   height:400px;
   background-image: url(img/mv.jpg);
   background-size: cover;
+  /* ここは間違い。centerだと中心位置を基準に画像が拡大される。 */
+  /* そのため、画像が正方形になり横方向の一部分が飛び出る。 */
   background-position: center;
 }
 
